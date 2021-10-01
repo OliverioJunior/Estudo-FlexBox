@@ -1,0 +1,42 @@
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+}
+
+.item{
+    background:blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    min-height:100px;
+    line-height: 50px;
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+
+.wrap{
+    flex-flow: row wrap;
+}
+
+
+.wrap-reverse{
+    flex-flow: row wrap-reverse;
+}
+.nowrap-reverse{
+    flex-flow: nowrap row-reverse;
+}
+.wrap-reverse{
+    flex-flow: wrap row-reverse;
+}
+.wrap-row_reverse{
+    flex-flow: wrap-reverse row-reverse;
+}
+
+.column{
+    flex-direction: column; /* A propriedade flex-direction sobre escreve a propriedade flex-flow */
+}
