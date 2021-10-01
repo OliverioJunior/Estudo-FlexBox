@@ -1,0 +1,31 @@
+.container{
+    max-width: 400px;
+    border: 2px solid black;
+    margin: 0;
+    display: flex;
+}
+
+.item{
+    background: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.flex-star{
+    justify-content:flex-start ;
+}
+.flex-end{
+    justify-content:flex-end ;
+}
+.center{
+    justify-content:center ;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
