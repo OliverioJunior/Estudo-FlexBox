@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.item{
+    margin: 5px;
+    background: blueviolet;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.s-0{
+    flex-shrink: 0;
+
+}
+.s-1{
+    flex-shrink: 1;
+
+}
+.s-2{
+    flex-shrink: 2;
+
+}
+.s-3{
+    flex-shrink: 3;
+
+}
+
+.fg-1{
+    flex-grow: 1;
+}
